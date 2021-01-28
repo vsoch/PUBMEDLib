@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background-color: #C0C0C0;
+	color: #000;
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+input {
+	color: #666;
+        border: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	margin: 250px auto;
+	width: 400px;
+}
+
+#login h2 {
+	background-color: rgb(249, 82, 155);
+	-webkit-border-radius: 20px 20px 0 0;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 28px;
+	padding: 20px 26px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+	margin-right: 14px;
+}
+
+#login fieldset {
+	background-color: #fff;
+	-webkit-border-radius: 0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	padding: 20px 26px;
+        border-color: #999;
+}
+
+#login fieldset p {
+	color: #777;
+	margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+	margin-bottom: 0;
+}
+
+#login fieldset input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+	background-color: #eee;
+	color: #777;
+	padding: 4px 10px;
+	width: 328px;
+}
+
+#login fieldset input[type="submit"] {
+	background-color: #33cc77;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 100px;
+}
+
+#login fieldset input[type="submit"]:hover {
+	background-color: #28ad63;
+}
+
+/* ---------- TERM DEFINITION BOX ---------- */
+
+#termbox {
+        margin: 75px auto;
+        width: 400px;
+}
+
+#termbox h2 {
+        background-color: rgb(249, 82, 155);
+        -webkit-border-radius: 20px 20px 0 0;
+        -moz-border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 0 0;
+        color: #fff;
+        font-size: 28px;
+        padding: 20px 26px;
+}
+
+#termbox h2 span[class*="fontawesome-"] {
+        margin-right: 14px;
+}
+
+#termbox fieldset {
+        background-color: #fff;
+        -webkit-border-radius: 0 0 20px 20px;
+        -moz-border-radius: 0 0 20px 20px;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 26px;
+        border-color: #999;
+}
+
+#termbox fieldset p {
+        color: #777;
+        margin-bottom: 14px;
+}
+
+#termbox fieldset p:last-child {
+        margin-bottom: 0;
+}
+
+#termbox fieldset input {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+
+
+#termbox fieldset input[type="email"], #termbox fieldset input[type="password"] {
+        background-color: #eee;
+        color: #777;
+        padding: 4px 10px;
+        width: 250px;
+}
+
+#termbox fieldset input[type="submit"] {
+        background-color: rgb(249, 82, 155);/*#33cc77;*/
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px 10px 20px;
+}
+
+#termbox fieldset input[type="submit"]:hover {
+        background-color: rgb(223, 32, 147);
+}
+
+
+/*----------------ABSTRACT RESULT------------------------*/
+
+#aresult {
+        margin: 75px auto;
+        width: 800px;
+}
+
+#aresult h2 {
+        background-color: rgb(249, 82, 155);
+        -webkit-border-radius: 20px 20px 0 0;
+        -moz-border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 0 0;
+        color: #fff;
+        font-size: 28px;
+        padding: 20px 26px;
+}
+
+#aresult h2 span[class*="fontawesome-"] {
+        margin-right: 14px;
+}
+
+#aresult fieldset {
+        background-color: #fff;
+        -webkit-border-radius: 0 0 20px 20px;
+        -moz-border-radius: 0 0 20px 20px;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 26px;
+        border-color: #999;
+}
+
+#aresult fieldset p {
+        color: #777;
+        margin-bottom: 14px;
+}
+
+#aresult fieldset p:last-child {
+        margin-bottom: 0;
+}
+
+#aresult fieldset input {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+
+
+#aresult fieldset input[type="email"], #termbox fieldset input[type="password"] {
+        background-color: #eee;
+        color: #777;
+        padding: 4px 10px;
+        width: 250px;
+}
+
+#aresult fieldset input[type="submit"] {
+        background-color: rgb(249, 82, 155);/*#33cc77;*/
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px 10px 20px;
+}
+
